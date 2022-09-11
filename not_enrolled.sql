@@ -1,3 +1,3 @@
 SELECT name
-FROM student,enrolled
-WHERE student.id != enrolled.student_id
+FROM Student,Enrolled
+WHERE Student.id != Enrolled.student_id
