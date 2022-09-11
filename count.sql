@@ -1,3 +1,3 @@
 SELECT COUNT(name)
-FROM student, enrolled,course
-WHERE student.⁯id=enrolled.id AND course.crn=enrolled.course_crn AND course.name="CSC275"
+FROM Student, Enrolled,Course,MajorsIn,Department
+WHERE Student.⁯id=Enrolled.id AND Course.crn=Enrolled.course_crn AND Course.name="CSC275" AND MajorsIn.student_id=Student.⁯id AND Department.name="CE" 
