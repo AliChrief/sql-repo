@@ -1,3 +1,3 @@
 SELECT name
-FROM rooms
+FROM Room
 WHERE capacity > 100
